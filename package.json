@@ -1,0 +1,15 @@
+{
+  "name": "share-a-plate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Share A Plate - Food Rescue Coordination Platform (MERN)",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "server:dev": "node --watch backend/server.js",
+    "backend": "npm run start --prefix backend",
+    "dev": "npm run dev --prefix client",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client"
+  }
+}
